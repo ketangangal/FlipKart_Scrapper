@@ -1,0 +1,12 @@
+Product_name,Name,Rating,CommentHead,Comment
+iphone,Flipkart Customer,5,Terrific,"Wow superb camera phone Very smooth speed and no lag , iphone is the king always Its a beautiful product"
+iphone,Anurag Lad,5,Perfect product!,The brand is very trustworthy and i got genuine pice at a very low cost.I ordered the green one and trust me the colour was amazing.All the colours but specifically green and purple are nice for look.Thanks to flipkart❤️
+iphone,Vishal Gandhi,5,Terrific purchase,Awesome phone … value for money.. Happy with battery life.. Awesome camera features… look at the images snapped using the phone… easy to use.. Just feared about getting scratch at back glass… but using cover helped it…
+iphone,Ishu Kumar,5,Mind-blowing purchase,"Guys ,this is just Beast at Every Aspect of Configurations, Full Pack with What You want, Like Best Camera , Best Display, Best Battery for whole Day Use, And Everyone know About Processing Speed👌.."
+iphone,Suddha Ram boro,5,Awesome,Thanks flipkart i trust you got my device perfectly loved it best phone in it's segment
+iphone,Flipkart Customer,5,Awesome,"Excellent product worth for every penny, writing this review after using 7 days, earlier was using iPhone 6Plus now on iPhone 12 😍, faster then anything this else.Excellent Picture quality.Just loved it.!!"
+iphone,ANAND S,5,Highly recommended,"My 1st iPhone ever and I’m loving it. Great performance, awesome display, camera is outstanding which comes with heavily priced. But worth it. White color looks super cool. 🎉😊😍"
+iphone,Mohammadhusain Dedhrotiya ,5,Brilliant,Excellent product worth every penny right this review after using 7 days earlier was using phone iPhone 6s now on iPhone 12😍😍 faster than anything this else… excellent picture quality just love it iPhone12
+iphone,Aman Yadav,5,Brilliant,"It’s my first iPhone ever and I bought it with my earned money through part time jobs in college✌️I am a tech freak so you can trust my views -- A14 Bionic is the fastest, most efficient and reliable processor till date- The camera focuses so quickly that you can take DSLR quality photos.- The screen size 6.1 inches is the most comfortable screen size out there and the OLED retina XDR display is so crisp and everything feels real.- The stereo speakers are so clear even on high volume an..."
+iphone,Pranjal Dwivedi,5,Must buy!,"Delightful phone, the phone is just a peice of art, sleek, eye catchy, super fast and got everything u need...best one available"
+iphone,No Name,No Rating,No Comment Heading,No comment

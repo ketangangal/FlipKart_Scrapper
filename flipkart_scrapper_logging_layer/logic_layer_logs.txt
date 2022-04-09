@@ -1,0 +1,52 @@
+INFO [2022-04-07 12:16:02.872172]: Scrapping Data iphone from Flipkart.
+INFO [2022-04-07 12:16:02.872172]: Scrapping Completed for iphone.
+INFO [2022-04-07 15:22:45.435287]: Scrapping Data iphone from Flipkart.
+INFO [2022-04-07 15:22:45.435287]: Scrapping Completed for iphone.
+INFO [2022-04-07 16:04:10.688859]: Scrapping Data 11 from Flipkart.
+INFO [2022-04-07 16:04:10.688859]: Scrapping Completed for 11.
+INFO [2022-04-07 16:04:10.688859]: Scrapping Data 11 from Flipkart.
+INFO [2022-04-07 16:04:10.688859]: Scrapping Completed for 11.
+INFO [2022-04-07 16:57:08.238765]: Scrapping Data ihpn from Flipkart.
+INFO [2022-04-07 16:57:08.238765]: Scrapping Completed for ihpn.
+INFO [2022-04-07 16:57:08.238765]: Scrapping Data galaxyj6 from Flipkart.
+INFO [2022-04-07 16:57:08.238765]: Scrapping Completed for galaxyj6.
+INFO [2022-04-07 18:59:51.526389]: Scrapping Data iphone from Flipkart.
+INFO [2022-04-07 18:59:51.526389]: Scrapping Completed for iphone.
+INFO [2022-04-07 18:59:51.526389]: Scrapping Data iphone from Flipkart.
+INFO [2022-04-07 18:59:51.526389]: Scrapping Completed for iphone.
+INFO [2022-04-07 18:59:51.526389]: Scrapping Data iphone from Flipkart.
+INFO [2022-04-07 18:59:51.526389]: Scrapping Completed for iphone.
+INFO [2022-04-07 18:59:51.526389]: Scrapping Data iphone from Flipkart.
+INFO [2022-04-07 18:59:51.526389]: Scrapping Completed for iphone.
+INFO [2022-04-07 18:59:51.526389]: Scrapping Data iphone from Flipkart.
+INFO [2022-04-07 18:59:51.526389]: Scrapping Completed for iphone.
+INFO [2022-04-07 19:03:07.437917]: Scrapping Data iphone from Flipkart.
+INFO [2022-04-07 19:03:07.437917]: Scrapping Completed for iphone.
+INFO [2022-04-07 19:03:07.437917]: Scrapping Data iphone from Flipkart.
+INFO [2022-04-07 19:03:07.437917]: Scrapping Completed for iphone.
+INFO [2022-04-07 19:03:07.437917]: Scrapping Data iphone from Flipkart.
+INFO [2022-04-07 19:03:07.437917]: Scrapping Completed for iphone.
+INFO [2022-04-07 19:03:07.437917]: Scrapping Data iphone from Flipkart.
+INFO [2022-04-07 19:03:07.437917]: Scrapping Completed for iphone.
+INFO [2022-04-07 19:03:07.437917]: Scrapping Data iphone from Flipkart.
+INFO [2022-04-07 19:03:07.437917]: Scrapping Completed for iphone.
+INFO [2022-04-07 19:03:07.437917]: Scrapping Data samsung from Flipkart.
+INFO [2022-04-07 19:03:07.437917]: Scrapping Completed for samsung.
+INFO [2022-04-07 19:03:07.437917]: Scrapping Data samsung from Flipkart.
+INFO [2022-04-07 19:03:07.437917]: Scrapping Completed for samsung.
+INFO [2022-04-07 19:03:07.437917]: Scrapping Data samsung from Flipkart.
+INFO [2022-04-07 19:03:07.437917]: Scrapping Completed for samsung.
+INFO [2022-04-07 19:03:07.437917]: Scrapping Data samsung from Flipkart.
+INFO [2022-04-07 19:03:07.437917]: Scrapping Completed for samsung.
+INFO [2022-04-07 19:03:07.437917]: Scrapping Data samsung from Flipkart.
+INFO [2022-04-07 19:03:07.437917]: Scrapping Completed for samsung.
+INFO [2022-04-08 17:59:18.633916]: Scrapping Data poco%20x3%20pro from Flipkart.
+INFO [2022-04-08 17:59:18.633916]: Scrapping Completed for poco%20x3%20pro.
+INFO [2022-04-08 17:59:18.633916]: Scrapping Data poco%20x3%20pro from Flipkart.
+INFO [2022-04-08 17:59:18.633916]: Scrapping Completed for poco%20x3%20pro.
+INFO [2022-04-08 17:59:18.633916]: Scrapping Data poco%20x3%20pro from Flipkart.
+INFO [2022-04-08 17:59:18.633916]: Scrapping Completed for poco%20x3%20pro.
+INFO [2022-04-08 17:59:18.633916]: Scrapping Data poco%20x3%20pro from Flipkart.
+INFO [2022-04-08 17:59:18.633916]: Scrapping Completed for poco%20x3%20pro.
+INFO [2022-04-08 17:59:18.633916]: Scrapping Data poco%20x3%20pro from Flipkart.
+INFO [2022-04-08 17:59:18.633916]: Scrapping Completed for poco%20x3%20pro.

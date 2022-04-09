@@ -1,0 +1,96 @@
+INFO [2022-04-08 18:06:09.329435]: Searching flipkart for poco%20x3%20pro.
+INFO [2022-04-08 18:06:09.329435]: Searching flipkart for poco%20x3%20pro.
+INFO [2022-04-08 18:06:09.329435]: Index.html page requested.
+INFO [2022-04-08 18:06:09.329435]: Searching flipkart for iphone.
+INFO [2022-04-08 18:29:53.744872]: Index.html page requested.
+INFO [2022-04-08 18:29:53.744872]: Searching flipkart for iphone.
+INFO [2022-04-08 18:29:53.744872]: Index.html page requested.
+INFO [2022-04-08 18:29:53.744872]: Searching flipkart for iphone.
+INFO [2022-04-08 18:29:53.744872]: Index.html page requested.
+INFO [2022-04-08 18:29:53.744872]: Searching flipkart for iphone.
+INFO [2022-04-08 18:29:53.744872]: Index.html page requested.
+INFO [2022-04-08 18:29:53.744872]: Searching flipkart for iphone.
+INFO [2022-04-08 18:29:53.744872]: Index.html page requested.
+INFO [2022-04-08 18:29:53.744872]: Searching flipkart for iphone.
+INFO [2022-04-08 18:29:53.744872]: Searching flipkart for iphone.
+INFO [2022-04-08 18:41:48.192917]: Index.html page requested.
+INFO [2022-04-08 18:41:48.192917]: Searching flipkart for iphone.
+INFO [2022-04-08 18:43:17.934918]: Searching flipkart for iphone.
+INFO [2022-04-08 18:44:04.104682]: Searching flipkart for iphone.
+INFO [2022-04-08 18:45:38.744320]: Searching flipkart for iphone.
+INFO [2022-04-08 18:48:12.273130]: Searching flipkart for iphone.
+INFO [2022-04-08 18:51:35.739561]: Index.html page requested.
+INFO [2022-04-08 18:51:35.739561]: Searching flipkart for iphone.
+INFO [2022-04-08 18:52:17.944805]: Index.html page requested.
+INFO [2022-04-08 18:52:17.944805]: Searching flipkart for iphone.
+INFO [2022-04-08 18:52:17.944805]: Index.html page requested.
+INFO [2022-04-08 18:52:17.944805]: Searching flipkart for poco%20x3%20pro.
+INFO [2022-04-08 18:54:57.514533]: Index.html page requested.
+INFO [2022-04-08 18:54:57.514533]: Searching flipkart for iphone.
+INFO [2022-04-08 18:55:31.898823]: Index.html page requested.
+INFO [2022-04-08 18:55:31.898823]: Searching flipkart for iphone.
+INFO [2022-04-08 18:57:15.556615]: Searching flipkart for iphone.
+INFO [2022-04-08 18:57:35.553841]: Searching flipkart for iphone.
+INFO [2022-04-08 18:58:58.278588]: Index.html page requested.
+INFO [2022-04-08 18:58:58.278588]: Searching flipkart for iphone.
+INFO [2022-04-08 19:00:58.814108]: Searching flipkart for iphone.
+INFO [2022-04-08 19:03:14.524297]: Searching flipkart for iphone.
+INFO [2022-04-08 19:04:14.253275]: Searching flipkart for poco%20x3%20pro.
+INFO [2022-04-09 14:20:55.078731]: Index.html page requested.
+INFO [2022-04-09 14:20:55.078731]: Searching flipkart for iphone.
+INFO [2022-04-09 14:20:55.078731]: Searching flipkart for iphone.
+INFO [2022-04-09 14:20:55.078731]: Index.html page requested.
+INFO [2022-04-09 14:20:55.078731]: Searching flipkart for iphone.
+INFO [2022-04-09 17:45:51.250439]: Index.html page requested.
+INFO [2022-04-09 17:45:51.250439]: Searching flipkart for iphone.
+INFO [2022-04-09 17:45:51.250439]: Index.html page requested.
+INFO [2022-04-09 17:45:51.250439]: Searching flipkart for iphone.
+INFO [2022-04-09 17:45:51.250439]: Index.html page requested.
+INFO [2022-04-09 17:45:51.250439]: Index.html page requested.
+INFO [2022-04-09 17:45:51.250439]: Index.html page requested.
+INFO [2022-04-09 17:45:51.250439]: Index.html page requested.
+INFO [2022-04-09 17:45:51.250439]: Index.html page requested.
+INFO [2022-04-09 17:45:51.250439]: Index.html page requested.
+INFO [2022-04-09 17:45:51.250439]: Index.html page requested.
+INFO [2022-04-09 17:45:51.250439]: Index.html page requested.
+INFO [2022-04-09 17:45:51.250439]: Index.html page requested.
+INFO [2022-04-09 17:45:51.250439]: Index.html page requested.
+INFO [2022-04-09 17:45:51.250439]: Index.html page requested.
+INFO [2022-04-09 17:45:51.250439]: Index.html page requested.
+INFO [2022-04-09 17:45:51.250439]: Index.html page requested.
+INFO [2022-04-09 17:45:51.250439]: Index.html page requested.
+INFO [2022-04-09 17:45:51.250439]: Searching flipkart for iphone.
+INFO [2022-04-09 17:45:51.250439]: Searching flipkart for iphone.
+INFO [2022-04-09 17:45:51.250439]: Index.html page requested.
+INFO [2022-04-09 17:45:51.250439]: Index.html page requested.
+INFO [2022-04-09 17:45:51.250439]: Index.html page requested.
+INFO [2022-04-09 17:45:51.250439]: Index.html page requested.
+INFO [2022-04-09 17:45:51.250439]: Index.html page requested.
+INFO [2022-04-09 17:45:51.250439]: Index.html page requested.
+INFO [2022-04-09 17:45:51.250439]: Index.html page requested.
+INFO [2022-04-09 17:45:51.250439]: Index.html page requested.
+INFO [2022-04-09 17:45:51.250439]: Index.html page requested.
+INFO [2022-04-09 17:45:51.250439]: Index.html page requested.
+INFO [2022-04-09 17:45:51.250439]: Index.html page requested.
+INFO [2022-04-09 17:45:51.250439]: Index.html page requested.
+INFO [2022-04-09 18:59:01.631968]: Index.html page requested.
+INFO [2022-04-09 18:59:01.631968]: Index.html page requested.
+INFO [2022-04-09 18:59:01.631968]: Index.html page requested.
+INFO [2022-04-09 18:59:01.631968]: Index.html page requested.
+INFO [2022-04-09 18:59:01.631968]: Index.html page requested.
+INFO [2022-04-09 18:59:01.631968]: Index.html page requested.
+INFO [2022-04-09 18:59:01.631968]: Index.html page requested.
+INFO [2022-04-09 18:59:01.631968]: Index.html page requested.
+INFO [2022-04-09 18:59:01.631968]: Index.html page requested.
+INFO [2022-04-09 18:59:01.631968]: Index.html page requested.
+INFO [2022-04-09 18:59:01.631968]: Index.html page requested.
+INFO [2022-04-09 18:59:01.631968]: Index.html page requested.
+INFO [2022-04-09 18:59:01.631968]: Index.html page requested.
+INFO [2022-04-09 18:59:01.631968]: Index.html page requested.
+INFO [2022-04-09 18:59:01.631968]: Index.html page requested.
+INFO [2022-04-09 18:59:01.631968]: Index.html page requested.
+INFO [2022-04-09 18:59:01.631968]: Index.html page requested.
+INFO [2022-04-09 18:59:01.631968]: Index.html page requested.
+INFO [2022-04-09 18:59:01.631968]: Searching flipkart for iphone.
+INFO [2022-04-09 18:59:01.631968]: Index.html page requested.
+INFO [2022-04-09 18:59:01.631968]: Index.html page requested.

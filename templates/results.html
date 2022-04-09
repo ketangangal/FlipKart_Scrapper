@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Review Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="static/css/main.css">
+    <link rel="stylesheet" href="static/css/style.css">
+    <style>
+    body {
+      background: url(https://www.mepixels.com/cache/b7da43d2/minimalist-4k-desktop-background-1140x1140-rExcgaSAE.jpeg) no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    }
+    </style>
+
+</head>
+
+<body>
+
+  <div class="table-users">
+   <div class="header">Reviews</div>
+        <br>
+        <form action="get_wordcloud" method="POST">
+              <input list="product_list" name="product" id="product" required >
+                <input type="hidden" value="{{ search_string }}" name="search_string" required>
+                  <datalist id="product_list">
+                      {% for product in  list_of_products %}
+                        <option value="{{ product  }} ">
+                      {% endfor %}
+                  </datalist>
+            <input type="submit" value="View Word Cloud">
+        </form>
+      <br>
+       <form action="download_csv" method="POST">
+           <input list="product_list" name="product" id="product_1" required >
+                <input type="hidden" value="{{ search_string }}" name="search_string" required>
+                  <datalist id="product_list_1">
+                      {% for product in  list_of_products %}
+                        <option value="{{ product  }} ">
+                      {% endfor %}
+                  </datalist>
+           <button type="submit" class="btn btn-primary">Download CSV</button>
+       </form>
+
+      <br>
+       <table cellspacing="0">
+          <tr>
+             <th>Product</th>
+             <th>Name</th>
+             <th>Rating</th>
+             <th>Comment Heading</th>
+             <th width="230">Comments</th>
+          </tr>
+           {% for review in reviews %}
+          <tr>
+              <td>{{review['Product_name']}}</td>
+             <td>{{review['Name']}}</td>
+             <td>{{review['Rating']}}</td>
+             <td>{{review['CommentHead']}}</td>
+             <td>{{review['Comment']}} </td>
+          </tr>
+           {% endfor %}
+       </table>
+</div>
+
+
+
+</body>
+
+</html>
