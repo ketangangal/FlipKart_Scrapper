@@ -35,7 +35,7 @@ python tests.py
 Be sure that your app is running.
 Results after running tests.py
 
-![img.png](img.png)
+![image](https://user-images.githubusercontent.com/40850370/162749278-61d2b329-ebb0-46f8-a5cf-34a056a3fadd.png)
 
 ## Interface 
 ![image](https://user-images.githubusercontent.com/40850370/162748874-f5de450f-e54f-4d39-bc9f-8ecac6b0be7c.png)
