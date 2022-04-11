@@ -20,35 +20,64 @@ database = Database()
 
 @app.get('/')
 def index(request: Request):
+    """
+    API Desc: This api renders main index.html page.
+    :return: Response of the page
+    """
     logger.info("Index.html page requested")
     return templates.TemplateResponse(name="index.html", context={"request": request})
 
 
 @app.post('/results')
 def results(request: Request, content: str = Form(...)):
+    """
+    This api gets search result from index.html and query database if that collection not found,
+    call scrapper class to scrape data from flipkart
+    :return: Render results.html
+    """
     try:
         search_string = content.replace(" ", "%20")
         logger.info(f"Searching flipkart for {search_string}")
-        # Search Data in the Database if not found scrap from flipkart
         reviews = database.get_collection(search_string)
         if not reviews.__len__() and search_string != "":
             scrap = Scrapper(search_string)
             reviews = scrap.get_data()
             database.create_collection(search_string, reviews)
-        # Return scraped data to the user
         return templates.TemplateResponse(name="results.html",
                                           context={"request": request,
                                                    'reviews': reviews[0][list(reviews[0].keys())[1]],
                                                    'list_of_products': list(reviews[0].keys())[1:],
-                                                   'search_string': search_string, })
+                                                   'search_string': search_string})
+    except Exception as e:
+        message = FlipkartCustomException(e, sys)
+        logger.error(message.error_message)
+        return templates.TemplateResponse(name="505.html", context={"request": request})
+
+@app.get('/get_wordcloud')
+def get_wordcloud(request: Request, search_string: str):
+    """
+    This api get search query from user to find and load collection from database to generate.
+    :return: renders wordcloud.html
+    """
+    try:
+        reviews = database.get_collection(search_string)
+        return templates.TemplateResponse(name="wordcloud.html",
+                                          context={"request": request,
+                                                   'list_of_products': list(reviews[0].keys())[1:],
+                                                   'search_string': search_string})
     except Exception as e:
         message = FlipkartCustomException(e, sys)
         logger.error(message.error_message)
         return templates.TemplateResponse(name="505.html", context={"request": request})
 
 
-@app.post('/get_wordcloud')
-def product_reviews(request: Request, search_string: str = Form(...), product: str = Form(...)):
+@app.post('/post_wordcloud')
+def post_wordcloud(request: Request, search_string: str = Form(...), product: str = Form(...)):
+    """
+    This api gets wordcloud creation request from get api and performs action to create,
+    test.html.
+    :return: Renders test.html which includes plotly wordcloud
+    """
     try:
         reviews = database.get_collection(search_string)
         result_fig = plotly_wordcloud(reviews[0][product.replace("%20", ' ')[:-1]])
@@ -59,9 +88,30 @@ def product_reviews(request: Request, search_string: str = Form(...), product: s
         logger.error(message.error_message)
         return templates.TemplateResponse(name="505.html", context={"request": request})
 
+@app.get('/get_download_csv')
+def get_download_csv(request: Request,search_string: str):
+    """
+    This api asks user to select data to download in csv format
+    :return: Renders download_data.html
+    """
+    try:
+        reviews = database.get_collection(search_string)
+        return templates.TemplateResponse(name="download_data.html",
+                                          context={"request": request,
+                                                   'list_of_products': list(reviews[0].keys())[1:],
+                                                   'search_string': search_string})
+    except Exception as e:
+        message = FlipkartCustomException(e, sys)
+        logger.error(message.error_message)
+        return templates.TemplateResponse(name="505.html", context={"request": request})
 
-@app.post('/download_csv')
-def wordcloud(request: Request, search_string: str = Form(...), product: str = Form(...)):
+
+@app.post('/post_download_csv')
+def post_download_csv(request: Request, search_string: str = Form(...), product: str = Form(...)):
+    """
+    This Api downloads selected data into users local system.
+    :return: Download data in csv format
+    """
     try:
         reviews = database.get_collection(search_string)
         data = reviews[0][product.replace("%20", ' ')[:-1]]
