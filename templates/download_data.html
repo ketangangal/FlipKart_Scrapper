@@ -2,56 +2,52 @@
 <html lang="en">
 
 <head>
-  <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
     <link rel=stylesheet type=text/css href="static/css/test.css">
-    <title>iNeuron Private Limited</title>
-
+    <title>WordCloud</title>
 </head>
 
 <body>
-
-  <!-- {% block navbar %} -->
   <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="/">Home</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+    <button class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+
+        <span class="navbar-toggler-icon"></span>
 
     </button>
+
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <a class="nav-link" href="https://ineuron.ai/">iNeuron</a>
+          <a class="nav-link" href="https://github.com/c17hawke/flask-based-wordcloud-generator">Github</a>
         </li>
       </ul>
     </div>
-
   </nav>
-  <!-- {% endblock navbar %} -->
 
+   <div class="header" style="margin-top:300px">
+       <form action="post_download_csv" method="POST">
+           <input list="product_list" name="product" id="product_1" required >
+                <input type="hidden" value="{{ search_string }}" name="search_string" required>
+                  <datalist id="product_list">
+                      {% for product in  list_of_products %}
+                        <option value="{{ product  }} ">
+                      {% endfor %}
+                  </datalist>
+           <button type="submit" class="btn btn-primary">Download CSV</button>
+       </form>
+   </div>
 
-    <div class="container">
-        <form action="/results" id="search" method="POST" class="search-box-div">
-          <legend id="legend">Search Product</legend>
-          <div class="form-group">
-            <input type="text" name="content" class="form-control" id="Searchproduct" aria-describedby="SearchProduct"
-            placeholder="What are you looking for?">
-        </div>
-        <button  type="submit" class="btn btn-primary button" >Search</button>
-      </form>
-    </div>
-    <h5 class=".text-muted copyright">&copy; iNeuron</h5>
-
-  </div>
-
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
@@ -62,5 +58,4 @@
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
 </body>
-
 </html>
