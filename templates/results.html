@@ -50,9 +50,30 @@
 
   </nav>
    {% endblock navbar %}
-  <div class="table-users">
-   <div class="header"></div>
-       <table cellspacing="0" style="margin-left:20%; margin-top:5%;">
+<!--  <div class="table-users">-->
+<!--   <div class="header"></div>-->
+<!--       <table cellspacing="0" style="margin-left:20%; margin-top:5%;">-->
+<!--          <tr>-->
+<!--             <th>Product</th>-->
+<!--             <th>Name</th>-->
+<!--             <th>Rating</th>-->
+<!--             <th>Comment Heading</th>-->
+<!--             <th width="230">Comments</th>-->
+<!--          </tr>-->
+<!--           {% for review in reviews %}-->
+<!--          <tr>-->
+<!--              <td>{{review['Product_name']}}</td>-->
+<!--             <td>{{review['Name']}}</td>-->
+<!--             <td>{{review['Rating']}}</td>-->
+<!--             <td>{{review['CommentHead']}}</td>-->
+<!--             <td>{{review['Comment']}} </td>-->
+<!--          </tr>-->
+<!--           {% endfor %}-->
+<!--       </table>-->
+
+  <div class="container">
+      <table class="table">
+          <thead class="thead-dark">
           <tr>
              <th>Product</th>
              <th>Name</th>
@@ -60,19 +81,21 @@
              <th>Comment Heading</th>
              <th width="230">Comments</th>
           </tr>
-           {% for review in reviews %}
-          <tr>
-              <td>{{review['Product_name']}}</td>
-             <td>{{review['Name']}}</td>
-             <td>{{review['Rating']}}</td>
-             <td>{{review['CommentHead']}}</td>
-             <td>{{review['Comment']}} </td>
-          </tr>
-           {% endfor %}
-       </table>
-</div>
+          </thead>
+          <tbody>
+        {% for review in reviews %}
+        <tr>
+            <td>{{review['Product_name']}}</td>
+            <td>{{review['Name']}}</td>
+            <td>{{review['Rating']}}</td>
+            <td>{{review['CommentHead']}}</td>
+            <td>{{review['Comment']}} </td>
+        </tr>
+        {% endfor %}
+        </tbody>
+      </table>
 
-  </div>
+    </div>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->

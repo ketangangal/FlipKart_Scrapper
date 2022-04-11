@@ -25,29 +25,38 @@
         <span class="navbar-toggler-icon"></span>
 
     </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="https://github.com/c17hawke/flask-based-wordcloud-generator">Github</a>
-        </li>
-      </ul>
-    </div>
   </nav>
 
-   <div class="header" style="margin-top:300px">
-        <form action="post_wordcloud" method="POST">
-              <input list="product_list" name="product" id="product" required >
-                <input type="hidden" value="{{ search_string }}" name="search_string" required>
-                  <datalist id="product_list">
+<!--   <div class="header" style="margin-top:300px">-->
+<!--        <form action="post_wordcloud" method="POST">-->
+<!--              <input list="product_list" name="product" id="product" required >-->
+<!--                <input type="hidden" value="{{ search_string }}" name="search_string" required>-->
+<!--                  <datalist id="product_list">-->
+<!--                      {% for product in  list_of_products %}-->
+<!--                        <option value="{{ product  }} ">-->
+<!--                      {% endfor %}-->
+<!--                  </datalist>-->
+
+<!--            <button type="submit" class="btn btn-primary">View Word Cloud</button>-->
+<!--        </form>-->
+<!--   </div>-->
+
+      <div class="container">
+        <form action="post_wordcloud" method="POST" class="search-box-div">
+          <legend id="legend">Search Product</legend>
+          <div class="form-group">
+            <input list="product_list" name="product" class="form-control" id="product" aria-describedby="SearchProduct" placeholder="What are you looking for?" required>
+              <datalist id="product_list">
                       {% for product in  list_of_products %}
                         <option value="{{ product  }} ">
                       {% endfor %}
-                  </datalist>
+               </datalist>
+              <input type="hidden" value="{{ search_string }}" name="search_string" required>
+        </div>
+        <button  type="submit" class="btn btn-primary button" >View Word Cloud</button>
+      </form>
+    </div>
 
-            <button type="submit" class="btn btn-primary">View Word Cloud</button>
-        </form>
-   </div>
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

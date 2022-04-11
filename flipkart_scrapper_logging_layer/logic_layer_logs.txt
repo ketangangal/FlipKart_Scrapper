@@ -1,0 +1,10 @@
+INFO [2022-04-11 18:21:55.455850]: Scrapping Data ipad from Flipkart.
+INFO [2022-04-11 18:21:55.455850]: Scrapping Completed for ipad.
+INFO [2022-04-11 18:21:55.455850]: Scrapping Data ipad from Flipkart.
+INFO [2022-04-11 18:21:55.455850]: Scrapping Completed for ipad.
+INFO [2022-04-11 18:21:55.455850]: Scrapping Data ipad from Flipkart.
+INFO [2022-04-11 18:21:55.455850]: Scrapping Completed for ipad.
+INFO [2022-04-11 18:21:55.455850]: Scrapping Data ipad from Flipkart.
+INFO [2022-04-11 18:21:55.455850]: Scrapping Completed for ipad.
+INFO [2022-04-11 18:21:55.455850]: Scrapping Data ipad from Flipkart.
+INFO [2022-04-11 18:21:55.455850]: Scrapping Completed for ipad.

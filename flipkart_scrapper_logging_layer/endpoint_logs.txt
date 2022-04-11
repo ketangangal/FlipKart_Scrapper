@@ -67,3 +67,75 @@ INFO [2022-04-11 15:03:09.320885]: Index.html page requested.
 INFO [2022-04-11 15:03:09.320885]: Searching flipkart for iphone.
 INFO [2022-04-11 15:03:09.320885]: Index.html page requested.
 INFO [2022-04-11 15:03:09.320885]: Index.html page requested.
+INFO [2022-04-11 16:08:10.304896]: Index.html page requested.
+INFO [2022-04-11 16:08:10.304896]: Searching flipkart for iphone.
+INFO [2022-04-11 16:08:10.304896]: Index.html page requested.
+INFO [2022-04-11 16:08:10.304896]: Searching flipkart for samsung.
+INFO [2022-04-11 16:08:10.304896]: Searching flipkart for iphone.
+INFO [2022-04-11 16:08:10.304896]: Index.html page requested.
+INFO [2022-04-11 16:08:10.304896]: Searching flipkart for iphone.
+INFO [2022-04-11 16:08:10.304896]: Index.html page requested.
+INFO [2022-04-11 16:08:10.304896]: Searching flipkart for iphone.
+INFO [2022-04-11 16:08:10.304896]: Index.html page requested.
+INFO [2022-04-11 16:08:10.304896]: Searching flipkart for iphone.
+INFO [2022-04-11 16:08:10.304896]: Index.html page requested.
+INFO [2022-04-11 16:08:10.304896]: Searching flipkart for iphone.
+INFO [2022-04-11 16:08:10.304896]: Searching flipkart for iphone.
+INFO [2022-04-11 16:08:10.304896]: Index.html page requested.
+INFO [2022-04-11 16:08:10.304896]: Searching flipkart for iphone.
+INFO [2022-04-11 16:08:10.304896]: Index.html page requested.
+INFO [2022-04-11 16:08:10.304896]: Index.html page requested.
+INFO [2022-04-11 16:08:10.304896]: Searching flipkart for iphone.
+INFO [2022-04-11 16:08:10.304896]: Index.html page requested.
+INFO [2022-04-11 16:08:10.304896]: Index.html page requested.
+INFO [2022-04-11 16:08:10.304896]: Searching flipkart for iphone.
+INFO [2022-04-11 16:08:10.304896]: Index.html page requested.
+INFO [2022-04-11 16:08:10.304896]: Searching flipkart for iphone.
+ERROR [2022-04-11 16:08:10.304896]: Error occurred python script name [app.py] line number [117] error message ['APPLE iPhone 12 (Black, 128 GB'].
+INFO [2022-04-11 16:08:10.304896]: Index.html page requested.
+INFO [2022-04-11 16:08:10.304896]: Searching flipkart for iphone.
+INFO [2022-04-11 16:08:10.304896]: Index.html page requested.
+INFO [2022-04-11 16:08:10.304896]: Index.html page requested.
+INFO [2022-04-11 16:08:10.304896]: Index.html page requested.
+INFO [2022-04-11 16:08:10.304896]: Searching flipkart for iphone.
+INFO [2022-04-11 16:08:10.304896]: Index.html page requested.
+INFO [2022-04-11 16:08:10.304896]: Searching flipkart for iphone.
+INFO [2022-04-11 16:08:10.304896]: Index.html page requested.
+INFO [2022-04-11 16:08:10.304896]: Index.html page requested.
+INFO [2022-04-11 16:08:10.304896]: Searching flipkart for iphone.
+INFO [2022-04-11 16:08:10.304896]: Index.html page requested.
+INFO [2022-04-11 16:08:10.304896]: Index.html page requested.
+INFO [2022-04-11 16:08:10.304896]: Searching flipkart for samsung.
+INFO [2022-04-11 16:08:10.304896]: Index.html page requested.
+INFO [2022-04-11 16:08:10.304896]: Searching flipkart for iphone.
+INFO [2022-04-11 16:08:10.304896]: Index.html page requested.
+INFO [2022-04-11 16:08:10.304896]: Searching flipkart for iphone.
+INFO [2022-04-11 16:08:10.304896]: Index.html page requested.
+INFO [2022-04-11 16:08:10.304896]: Index.html page requested.
+INFO [2022-04-11 16:08:10.304896]: Searching flipkart for iphone.
+INFO [2022-04-11 16:08:10.304896]: Index.html page requested.
+INFO [2022-04-11 16:08:10.304896]: Searching flipkart for iphone.
+INFO [2022-04-11 16:08:10.304896]: Index.html page requested.
+INFO [2022-04-11 16:08:10.304896]: Index.html page requested.
+INFO [2022-04-11 18:21:57.165842]: Index.html page requested.
+INFO [2022-04-11 18:21:57.165842]: Searching flipkart for iphone.
+INFO [2022-04-11 18:21:57.165842]: Index.html page requested.
+INFO [2022-04-11 18:21:57.165842]: Searching flipkart for iphone.
+INFO [2022-04-11 18:21:57.165842]: Index.html page requested.
+INFO [2022-04-11 18:21:57.165842]: Index.html page requested.
+INFO [2022-04-11 18:21:57.165842]: Index.html page requested.
+INFO [2022-04-11 18:21:57.165842]: Index.html page requested.
+INFO [2022-04-11 18:21:57.165842]: Searching flipkart for iphone.
+INFO [2022-04-11 18:21:57.165842]: Searching flipkart for mi.
+ERROR [2022-04-11 18:21:57.165842]: Error occurred python script name [app.py] line number [48] error message [list index out of range].
+INFO [2022-04-11 18:21:57.165842]: Searching flipkart for samsung.
+INFO [2022-04-11 18:21:57.165842]: Index.html page requested.
+INFO [2022-04-11 18:21:57.165842]: Index.html page requested.
+INFO [2022-04-11 18:21:57.165842]: Searching flipkart for mi.
+ERROR [2022-04-11 18:21:57.165842]: Error occurred python script name [app.py] line number [48] error message [list index out of range].
+INFO [2022-04-11 18:21:57.165842]: Searching flipkart for vivo.
+INFO [2022-04-11 18:21:57.165842]: Searching flipkart for ipad.
+INFO [2022-04-11 18:21:57.165842]: Index.html page requested.
+INFO [2022-04-11 18:21:57.165842]: Index.html page requested.
+INFO [2022-04-11 18:21:57.165842]: Searching flipkart for iphone.
+INFO [2022-04-11 18:21:57.165842]: Index.html page requested.
