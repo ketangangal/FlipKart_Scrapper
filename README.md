@@ -38,7 +38,9 @@ Results after running tests.py
 ![img.png](img.png)
 
 ## Interface 
-![img_1.png](img_1.png)
+![image](https://user-images.githubusercontent.com/40850370/162748874-f5de450f-e54f-4d39-bc9f-8ecac6b0be7c.png)
+![image](https://user-images.githubusercontent.com/40850370/162749012-f64d09e2-ca72-41e5-81ad-12175a5877f8.png)
+![image](https://user-images.githubusercontent.com/40850370/162749059-8f51e8d2-0126-4fe2-9418-58b9b2f319c9.png)
 ## Built With
 
 1. FastApi 
