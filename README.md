@@ -4,6 +4,7 @@ The data that was gathered is available to download as well.
 
 
 ## Prerequisites
+
 1. Environment setup.
 ```commandline
 conda create --prefix ./env python=3.8 -y
@@ -25,6 +26,25 @@ python app.py
 Mac/linux
 ```commandline
 python3 app.py 
+```
+
+## Docker  Integration 
+
+1. Build Image 
+```
+docker build -t Image_name .
+```
+2. Create and run container
+```
+docker run -p 8000:8080 Image_name
+```
+3. Stop running container
+```
+docker stop container_ID
+```
+4. start container 
+```
+docker start container_ID
 ```
 
 ## Running the tests
