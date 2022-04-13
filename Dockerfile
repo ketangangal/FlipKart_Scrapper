@@ -4,6 +4,6 @@ WORKDIR /flipkart-app
 RUN python --version
 RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
-Run pip install -e .
+RUN pip install -e .
 CMD ["python","app.py"]
 
